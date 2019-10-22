@@ -3,10 +3,11 @@ import matplotlib.pylab as plt
 
 t = np.linspace(0,2*np.pi,2000)
 
-y = np.sin(t)
+y = np.cos(t)
 
 plt.figure()
 plt.plot(t,y)
 plt.xlabel("t")
-plt.ylabel("sin(t)")
-plt.savefig("seno")
+plt.ylabel("cos(t)")
+plt.savefig("coseno")
+
